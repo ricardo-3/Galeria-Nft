@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  background: #f1f1f1;
+}
+
+body.dark {
+  background: #000;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .contenedor {
+  width: 90%;
+  height: 60px;
+  border-radius: 23px;
+  background-color: #fff;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+}
+
+body.dark header .contenedor {
+  background: #191A19;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+body.dark header .contenedor a {
+  font-family: 'Nothing You Could Do', cursive;
+  color: #c8c8c8;
+}
+
+body.dark header .contenedor a:hover {
+  color: #fff;
+}
+
+header .contenedor .enlaces {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .contenedor .enlaces a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: bold;
+}
+
+header .contenedor .enlaces .switch {
+  background-color: #343d5b;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+
+header .contenedor .enlaces .switch::after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background: #f1f1f1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+header .contenedor .enlaces .switch.active {
+  background: #FFB319;
+  color: black;
+}
+
+header .contenedor .enlaces .switch.active::after {
+  right: 0;
+  left: unset;
+}
+
+header .contenedor .enlaces .switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 23px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+/*# sourceMappingURL=estilos.css.map */
