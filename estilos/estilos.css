@@ -42,25 +42,28 @@ body .ventana1 .icon img {
 }
 @media screen and (max-width: 399px) {
   body .ventana1 .icon p {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 440px) {
   body .ventana1 .icon p {
-    font-size: 15px;
+    font-size: 13px;
     overflow: hidden;
   }
 }
 @media screen and (max-width: 399px) {
   body .ventana1 h1 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 200px;
     overflow: hidden;
+  }
+  body .ventana1 body .ventana1 {
+    padding: 10px;
   }
 }
 @media screen and (max-width: 440px) {
   body .ventana1 h1 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200px;
     overflow: hidden;
   }

@@ -65,11 +65,11 @@ body{
             }
 //       media query         //
             @media screen and (max-width:399px){ 
-                    p { font-size: 13px; }      
+                    p { font-size: 12px; }      
                  }
 
             @media screen and (max-width:440px){ 
-                    p { font-size: 15px;                         
+                    p { font-size: 13px;                         
                          overflow: hidden;
                     
                     }      
@@ -80,15 +80,18 @@ body{
           }
 //     media query       //
               @media screen and (max-width:399px){ 
-                    h1 { font-size: 17px;
+                    h1 { font-size: 15px;
                          font-weight: 200px;
                          overflow: hidden;
                     
-                    }      
+                    } 
+                 body  .ventana1{
+                       padding: 10px;
+                    }     
                 } 
 
                 @media screen and (max-width:440px){ 
-                    h1 { font-size: 24px;
+                    h1 { font-size: 18px;
                          font-weight: 200px;
                          overflow: hidden;
                     
