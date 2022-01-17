@@ -34,14 +34,15 @@ body{
         background: $negro;
     }
     .ventana1{
-		background-color: $grisClaro;
-		width: 40%;
+		background: $grisHover;
+        color: $negro;
+		width: 55%;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 		font-size: 18px;
 		text-align: center;
         padding: 33px;
         min-height: 350px;
-        left: 30%;
+        left: 25%;
 		border-radius: 9px;
 		position: fixed;
         z-index: 5;
@@ -49,13 +50,11 @@ body{
         display: none;
         border: 2px solid black;
 
-        .icon{
-            text-align: center;
+         .icon{
+            text-align: justify;
             justify-content: center;
             margin-top: 25px;
             
-
-
 
             img{
                 position: absolute;          
@@ -64,9 +63,39 @@ body{
                 right: 5px;
                 top: 7px;
             }
-        }
-        
-	}
+//       media query         //
+            @media screen and (max-width:399px){ 
+                    p { font-size: 13px; }      
+                 }
+
+            @media screen and (max-width:440px){ 
+                    p { font-size: 15px;                         
+                         overflow: hidden;
+                    
+                    }      
+                } 
+
+
+
+          }
+//     media query       //
+              @media screen and (max-width:399px){ 
+                    h1 { font-size: 17px;
+                         font-weight: 200px;
+                         overflow: hidden;
+                    
+                    }      
+                } 
+
+                @media screen and (max-width:440px){ 
+                    h1 { font-size: 24px;
+                         font-weight: 200px;
+                         overflow: hidden;
+                    
+                    }      
+                } 
+
+	 }
 }
 
 header{
