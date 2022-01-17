@@ -24,12 +24,12 @@ body .ventana1 {
   border-radius: 9px;
   position: fixed;
   z-index: 5;
-  top: 17%;
+  top: 20%;
   display: none;
   border: 2px solid black;
 }
 body .ventana1 .icon {
-  text-align: justify;
+  text-align: left;
   justify-content: center;
   margin-top: 25px;
 }
